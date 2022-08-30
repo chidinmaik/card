@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<head>
+    <title>MOBLIE BANKING CARD</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="third"></div>
+    <div class="second"></div>
+
+    <div class="card0">
+        <p>Credit</p>
+        <div class="card1">BANK NAME</div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+        <h1>4363 1234 5678 9101</h1>
+        <div class="card4">Vaid/Thru</div>
+        <div class="card4i">03/30</div>
+        <div class="card5">CARDHOLDER'S NAME</div>
+        <div class="card6"></div>
+        <div class="card6i"></div>
+        <div class="card6ii">VERVE</div>
+    
+
+    </div>
+
+
+
+
+<section id="cardback">
+
+<div class="card_0">
+    
+    <div class="card01">THIS IS A SAMPLE TWXT IGNORE</div>
+    <div class="text1">AUTHORIZED SIGNATURE ONLY- NOT VALID UNLESS SIGNED</div>
+    <div class="card02"></div>
+    <div class="text2">1 3</div>
+    <div class="text3">2</div>
+    <div class="text4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo recusandae, quia <br> reiciendis libero fugiat magni reprehenderit incidunt. Hic necessitatibus esse <br> ex totam fugiat facere <br> voluptatum ducimus, iure amet vero vel.<br> sum dolor sit amet consectetur, adipisicing elit. Illo recusandae, quia <br> reiciendis libero fugiat magni </div>
+    <div class="text5">interswitch</div>
+    <div class="text6">Copyright @ chidinma</div>
+</div>
+</section>
+
+<!----------------THIS IS A COMMENT-->
+<div class="about">
+    <div class="about1">
+    About 
+</div>
+<div class="about2">This is just a fictional atm card design done with only HTML AND CSS
+    (by choice of course), the idea of this was developed for my students to praticalized what they have learnt so far, 
+    wiill be sharing the links to their own once done.
+
+    <aside>NOTE: its adviceable to view this on desktop mode.</aside>
+    
+    SOURCE CODE BELOW <br>
+       
+     <div class="area1">
+        <h4>HTML</h4>
+        <textarea> 
+            <!DOCTYPE html>
+        <head>
+            <title>MOBLIE BANKING CARD</title>
+            <link rel="stylesheet" href="card.css">
+        </head>
+        <body>
+            <div class="third"></div>
+            <div class="second"></div>
+        
+            <div class="card0">
+                <p>Credit</p>
+                <div class="card1">BANK NAME</div>
+                <div class="card2"></div>
+                <div class="card3"></div>
+                <h1>4363 1234 5678 9101</h1>
+                <div class="card4">Vaid/Thru</div>
+                <div class="card4i">03/30</div>
+                <div class="card5">CARDHOLDER'S NAME</div>
+                <div class="card6"></div>
+                <div class="card6i"></div>
+                <div class="card6ii">VERVE</div>
+            
+        
+            </div>
+
+
+            <section id="cardback">
+
+                <div class="card_0">
+                    
+                    <div class="card01">THIS IS A SAMPLE TWXT IGNORE</div>
+                    <div class="text1">AUTHORIZED SIGNATURE ONLY- NOT VALID UNLESS SIGNED</div>
+                    <div class="card02"></div>
+                    <div class="text2">1 3</div>
+                    <div class="text3">2</div>
+                    <div class="text4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo recusandae, quia <br> reiciendis libero fugiat magni reprehenderit incidunt. Hic necessitatibus esse <br> ex totam fugiat facere <br> voluptatum ducimus, iure amet vero vel.<br> sum dolor sit amet consectetur, adipisicing elit. Illo recusandae, quia <br> reiciendis libero fugiat magni </div>
+                    <div class="text5">interswitch</div>
+                </div>
+                </section>
+        </textarea>
+        </div>
+</div>
+
+
+
+
+<div class="area2">
+    <textarea> 
+        body{
+            color: white;
+            font-family: cabin;
+        }
+        .card0 {
+            background-color: blanchedalmond;
+             width: 450px;
+            height: 300px;
+            border-radius: 20px;
+            position: relative;
+            left: 100px;
+            box-shadow: 2px 2px 2px 2px black;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .card0::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0;
+            top: 50%;
+            background:
+            
+            linear-gradient(to right, purple, pink);
+            animation:
+             ves 0.5s 0.5s 
+             cubic-bezier(0.7, 0.1, 0, 1) 
+             forwards;
+             border-radius: 20px;
+        }
+        
+        
+        .card0::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 5px;
+            background-color: rgb(191, 219, 230);
+            border-radius: 20px;
+            top: 49.5%;
+            left: 0;
+            animation:
+             ojo 0.6s 
+             cubic-bezier(0.7, 0.1, 0, 1);
+        }
+        
+        
+        .code0  * {
+            filter: opacity(0);
+            animation: veo 0.5s 1s ease-in forwards;
+        }
+        
+        .card1{
+            font-family: Arial;
+            position: relative;
+            left: 300px;
+        }
+        p{
+            font-family: elephant;
+            font-weight: 100;
+            position: relative;
+            top: 35px;
+            left: 25px;
+        }
+        .card2 {
+            background-image: linear-gradient(to right,yellow, brown);
+            width: 55px;
+            height: 50px;
+            position: relative;
+            top: 50px;
+            left: 25px;
+            border-radius: 10px;
+        }
+        .card3{
+            background-image: linear-gradient(to right,whitesmoke, grey);
+            width: 75px;
+            height: 50px;
+            position: relative;
+            top: -1px;
+            left: 350px;
+            border-radius: 10px;
+        
+        }
+        h1{
+            font-family: monospace;
+            font-size: 35px;
+            font-weight: 100;
+            position: relative;
+            left: 25px;
+            text-shadow: 1px 1px 1px  black;
+            top: -5px;
+        }
+        .h2 {
+            font-size: 30px;
+            position: relative;
+            bottom: 150px;
+            left: 15px;
+            font-family: elephant;
+            font-weight: lighter;
+            text-align: center;
+        
+        }
+        .card4{
+            font-size: 10px;
+            color: black;
+            font-weight: 700;
+            font-family: helvetica;
+            position: relative;
+            left: 200px;
+            bottom: 25px;
+        
+        }
+        .card4i{
+            font-size: 15px;
+            font-family: monospace;
+            position: relative;
+            left: 250px;
+            bottom: 38px;
+        }
+        .card5{
+            font-family: cabin;
+            font-weight: 200;
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+            position: relative;
+            left: 30px;
+            bottom: 15px;
+        }
+        .card6{
+            background-color: navy;
+            width: 100px;
+            height: 40px;
+            position: relative;
+            left: 300px;
+            bottom: 50px;
+            border-radius: 5px;
+        }
+        .card6i {
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            left: 305px;
+            bottom: 88px;
+            width: 35px;
+            height: 35px;
+        }
+        .card6ii{
+            color: white;
+            font-family: cabin;
+            font-size: 20px;
+            font-weight: 600;
+            position: relative;
+            left: 310px ;
+            bottom: 115px;
+        
+        
+        }
+        
+        .second{
+            width: 440px;
+            height: 200px;
+            background-image: linear-gradient(to right, blue, yellow);
+            position: absolute;
+            border-radius: 20px;
+            left: 110px;
+            top: 130px;
+            box-shadow: 3px 3px 3px black;
+        }
+        
+        .third {
+            width: 420px;
+            height: 200px;
+            background-image: linear-gradient(to right, green, whitesmoke);
+            position: absolute;
+            border-radius: 20px;
+            left: 120px;
+            top: 140px;
+            box-shadow: 3px 3px 3px black;
+        
+        }
+        
+        
+        
+        
+        .card_0{
+            background-color: azure;
+            width: 450px;
+            height: 300px;
+            border-radius: 20px;
+            position: relative;
+            left: 600px;
+            bottom: 300px;
+            box-shadow: 2px 2px 2px 2px black;
+        
+        
+        }
+        
+        .card_0::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0;
+            top: 50%;
+            background:
+            
+             linear-gradient(floralwhite, grey);
+            animation:
+             ves 0.5s 0.5s 
+             cubic-bezier(0.7, 0.1, 0, 1) 
+             forwards;
+             border-radius: 20px;
+        }
+        
+        
+        .card_0::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 5px;
+            background-color: rgb(191, 219, 230);
+            border-radius: 20px;
+            top: 49.5%;
+            left: 0;
+            animation:
+             ojo 0.6s 
+             cubic-bezier(0.7, 0.1, 0, 1);
+        }
+        .card_0  * {
+            filter: opacity(0);
+            animation: veo 0.5s 1s ease-in forwards;
+        }
+        
+        
+        
+        .card01{
+            background-color: black;
+            color: black;
+            position: relative;
+            font-size: 10px;
+            font-family: cabin;
+            top: 30px;
+            left: 0px;
+            width: 100%;
+            height: 50px;
+        
+        }
+        
+        .text1{
+            color: black;
+            font-size: 10px;
+            font-family: cabin;
+            position: relative;
+            left: 20px;
+            top: 40px;
+        }
+        .card02 {
+            background-color: gray;
+            border: 2px solid rgb(187, 179, 179);
+            width: 250px;
+            height: 40px;
+            position: relative;
+            left: 20px;
+            top: 45px;
+        }
+        .text2{
+            font-size: 20px;
+            font-family: monospace;
+            position: relative;
+            left: 150px;
+            top: 15px;
+            color: black;
+        }
+        .text3{
+            font-size: 20px;
+            font-family: monospace;
+            position: relative;
+            left: 160px;
+            top: 0px;
+            color: black;
+            bottom: 50px;
+        }
+        .text4{
+            font-size: 10px;
+            font-family: Arial;
+            position: relative;
+            left: 100px;
+            top: 10px;
+            color: black;
+        }
+        .text5{
+            color: navy;
+            font-size: 25px;
+            font-family: monospace;
+            font-weight: 600;
+            text-align: right;
+            position: relative;
+            right: 40px;
+            top: 40px;
+        }
+        
+        .text6{
+            color: grey;
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: 600;
+            text-align: right;
+            position: relative;
+            right: 210px;
+            top: 25px;
+        }
+        
+        
+        .back0{
+            color: black;
+            font-size: 20px;
+            width: 15em;
+            height: 3em;
+            border: 4px solid red;
+            border-radius: 1.5em;
+            text-align: center;
+            line-height: 3em;
+        }
+        
+        @keyframes veo {
+            to {
+                filter: opacity(1);
+            }
+        }
+        
+        @keyframes ves {
+            to {
+                height: 100%;
+                top: 0;
+            }
+        }
+        
+        @keyframes ojo {
+            50%, 100% {
+                width: 100%;
+                transform: rotate(360deg);
+            }
+        }
+        
+        </textarea>
+        </div>
+
+        </div>
+</body>

@@ -1,0 +1,405 @@
+
+body{
+    color: white;
+    font-family: cabin;
+    max-width: 100%;
+}
+.card0 {
+    background-color: blanchedalmond;
+     width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 100px;
+    box-shadow: 2px 2px 2px 2px black;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.card0::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    background:
+    
+    linear-gradient(to right, purple, pink);
+    animation:
+     ves 0.5s 0.5s 
+     cubic-bezier(0.7, 0.1, 0, 1) 
+     forwards;
+     border-radius: 20px;
+}
+
+
+.card0::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: rgb(191, 219, 230);
+    border-radius: 20px;
+    top: 49.5%;
+    left: 0;
+    animation:
+     ojo 0.6s 
+     cubic-bezier(0.7, 0.1, 0, 1);
+}
+
+
+.code0  * {
+    filter: opacity(0);
+    animation: veo 0.5s 1s ease-in forwards;
+}
+
+.card1{
+    font-family: Arial;
+    position: relative;
+    left: 300px;
+}
+p{
+    font-family: elephant;
+    font-weight: 100;
+    position: relative;
+    top: 35px;
+    left: 25px;
+}
+.card2 {
+    background-image: linear-gradient(to right,yellow, brown);
+    width: 55px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    border-radius: 10px;
+}
+.card3{
+    background-image: linear-gradient(to right,whitesmoke, grey);
+    width: 75px;
+    height: 50px;
+    position: relative;
+    top: -1px;
+    left: 350px;
+    border-radius: 10px;
+
+}
+h1{
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 100;
+    position: relative;
+    left: 25px;
+    text-shadow: 1px 1px 1px  black;
+    top: -5px;
+}
+.h2 {
+    font-size: 30px;
+    position: relative;
+    bottom: 150px;
+    left: 15px;
+    font-family: elephant;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.card4{
+    font-size: 10px;
+    color: black;
+    font-weight: 700;
+    font-family: helvetica;
+    position: relative;
+    left: 200px;
+    bottom: 25px;
+
+}
+.card4i{
+    font-size: 15px;
+    font-family: monospace;
+    position: relative;
+    left: 250px;
+    bottom: 38px;
+}
+.card5{
+    font-family: cabin;
+    font-weight: 200;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+.card6{
+    background-color: navy;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
+    border-radius: 5px;
+}
+.card6i {
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 305px;
+    bottom: 88px;
+    width: 35px;
+    height: 35px;
+}
+.card6ii{
+    color: white;
+    font-family: cabin;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 310px ;
+    bottom: 115px;
+
+
+}
+
+.second{
+    width: 440px;
+    height: 200px;
+    background-image: linear-gradient(to right, blue, yellow);
+    position: absolute;
+    border-radius: 20px;
+    left: 110px;
+    top: 130px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.third {
+    width: 420px;
+    height: 200px;
+    background-image: linear-gradient(to right, green, whitesmoke);
+    position: absolute;
+    border-radius: 20px;
+    left: 120px;
+    top: 140px;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+
+
+
+.card_0{
+    background-color: azure;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+    box-shadow: 2px 2px 2px 2px black;
+
+
+}
+
+.card_0::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    background:
+    
+     linear-gradient(floralwhite, grey);
+    animation:
+     ves 0.5s 0.5s 
+     cubic-bezier(0.7, 0.1, 0, 1) 
+     forwards;
+     border-radius: 20px;
+}
+
+
+.card_0::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: rgb(191, 219, 230);
+    border-radius: 20px;
+    top: 49.5%;
+    left: 0;
+    animation:
+     ojo 0.6s 
+     cubic-bezier(0.7, 0.1, 0, 1);
+}
+.card_0  * {
+    filter: opacity(0);
+    animation: veo 0.5s 1s ease-in forwards;
+}
+
+
+
+.card01{
+    background-color: black;
+    color: black;
+    position: relative;
+    font-size: 10px;
+    font-family: cabin;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.text1{
+    color: black;
+    font-size: 10px;
+    font-family: cabin;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+.card02 {
+    background-color: gray;
+    border: 2px solid rgb(187, 179, 179);
+    width: 250px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 45px;
+}
+.text2{
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+    left: 150px;
+    top: 15px;
+    color: black;
+}
+.text3{
+    font-size: 20px;
+    font-family: monospace;
+    position: relative;
+    left: 160px;
+    top: 0px;
+    color: black;
+    bottom: 50px;
+}
+.text4{
+    font-size: 10px;
+    font-family: Arial;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    color: black;
+}
+.text5{
+    color: navy;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    right: 40px;
+    top: 40px;
+}
+
+.text6{
+    color: grey;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    text-align: right;
+    position: relative;
+    right: 210px;
+    top: 25px;
+}
+
+
+.back0{
+    color: black;
+    font-size: 20px;
+    width: 15em;
+    height: 3em;
+    border: 4px solid red;
+    border-radius: 1.5em;
+    text-align: center;
+    line-height: 3em;
+}
+
+@keyframes veo {
+    to {
+        filter: opacity(1);
+    }
+}
+
+@keyframes ves {
+    to {
+        height: 100%;
+        top: 0;
+    }
+}
+
+@keyframes ojo {
+    50%, 100% {
+        width: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+
+.about{
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+    background-color: blanchedalmond;
+}
+.about1{
+    font-size: 30px;
+    font-family: elephant;
+    color: navy;
+    text-align: center;
+}
+aside{
+    color: red;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h4{
+    color: red;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+}
+.area1 textarea{
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    position: relative;
+
+
+}
+
+textarea{
+    border: none;
+    box-shadow: 2px 2px 2px 2px navy;
+
+}
+textarea:hover{
+    color: red;
+
+
+}
+
+.area2 textarea{
+    border-radius: 10px;
+    width: 300px;
+    height: 70px;
+    position: relative;
+    left: 600px;
+    bottom: 90px;
+    
+}
+
+
